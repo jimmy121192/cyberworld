@@ -1,0 +1,48 @@
+*less-monitor.bat
+*.sass-cache
+.htaccess
+.ftpquota
+# Include the following .htaccess specifically
+!wp-content/uploads/.htaccess
+deploy.php
+composer.phar
+tmp
+wp-content/mu-plugins/wp-migrate-db-pro-compatibility.php
+
+# Ignore dir #
+##############
+node_modules
+/nbproject/
+/wordpress/
+/wp-content/debug.log
+/wp-content/cache/
+/wp-content/w3tc-config/
+#/wp-content/uploads/*
+/wp-content/languages/
+#acf-json
+
+
+# Ignore everything inside plugins dir #
+########################################
+/wp-content/plugins/*
+
+# Ignore complied composer files #
+##################################
+/vendor/*
+composer.lock
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.well-known/
+
+# Logs #
+########
+*.log
+*error_log

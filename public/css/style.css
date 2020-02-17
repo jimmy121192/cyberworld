@@ -1,0 +1,32 @@
+.form-group label sup{
+    color: #ff0000;
+}
+.girl-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex:1;
+    flex-wrap: wrap;
+}
+.girl-box{
+    position: relative;
+    padding: 5px;
+    border: 1px solid wheat;
+}
+.girl-id{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    color: #ffffff;
+}
+.girl-box img{
+ width: 100%;
+
+}
+.girl-pagination{
+    margin: 50px 0;
+}
+.post-title{
+    margin: 30px 0;
+}
